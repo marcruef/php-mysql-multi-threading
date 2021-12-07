@@ -6,10 +6,10 @@ This code implements true _multi-threading of MySQL queries in PHP_. By adding t
 
 Sequential execution (total 12s):
 
-1. Query 1 (4s)
-2. Query 2 (2s)
-3. Query 3 (6x)
+1. Query 1 => 4s
+2. Query 2 => 2s
+3. Query 3 => 6s
 
 Parallelized execution (total 6s):
 
-1. Query 1 + Query 2 + Query 3 (6s)
+1. Query 1 + Query 2 + Query 3 => 6s
